@@ -39,6 +39,13 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
 ```bash 
     chmod a+x ~/bin/repo
  ```     
+Enter git credentials if you haven't yet.
+
+```bash
+    git config --global user.name Your Name
+    git config --global user.email you@example.com
+```
+
 To initialize your local repository, use a command like this:
 
 ```bash
